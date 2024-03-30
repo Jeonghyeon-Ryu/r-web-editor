@@ -1,4 +1,4 @@
-import { RWebEditor } from "../index.js"
+import { RWebEditor } from "../r-web-editor.js"
 
 
 const baseElement = document.querySelector('#base-element')
