@@ -1,0 +1,16 @@
+{
+  "name": "r-web-editor",
+  "version": "1.0.0",
+  "description": "1. 기능\r     * Notion Editor 참조\r         - Drag&Drop\r     * Base Element 에 크기 맞춤\r     * 반응형\r     * 저장\r     * 웹 및 모바일 coverage\r     * 공동작업 ( 후순위 )",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
