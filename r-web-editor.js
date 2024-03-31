@@ -15,7 +15,7 @@ class RWebEditor {
 
     getTemplate() {
         const template = `<div>
-        
+            
         </div>`
         const parser = new DOMParser()
         const doc = parser.parseFromString(template, 'text/html')
