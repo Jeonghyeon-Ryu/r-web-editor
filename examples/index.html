@@ -3,20 +3,53 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>WEB EDITOR</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='../assets/css/index.css'>
     <script type='module' src='main.js'></script>
 </head>
-<body>
-    <div id="base-element" style="width:900px; height:600px; border:1px solid gray;">
-        <div id="r-web-editor-container">
+<body style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+    <div id="base-element" style="width:900px; height:700px; border:1px solid gray;">
+        <div class="rwe-container">
+            <!-- TOP -->
             <div class="rwe-top">
-
+                <div class="rwe-title">타이틀</div>
+                <div class="rwe-btn rwe-test">T</div>
+                <div class="rwe-btn rwe-menu">M</div>
             </div>
+            <!-- MID -->
             <div class="rwe-mid">
+                <div class="rwe-mid-title">
+                    <div class="rwe-mid-title-input" contenteditable="true" placeholder="제목을 입력하세요"></div>
+                </div>
+                <div class="rwe-mid-article">
 
+                </div>
             </div>
+            <!-- BOT -->
+            <div class="rwe-bot">
+                
+            </div>
+        </div>
+    </div>
+    <div id="mobile-element" style="width:400px; height:700px; border:1px solid gray;">
+        <div class="rwe-container">
+            <!-- TOP -->
+            <div class="rwe-top">
+                <div class="rwe-title">타이틀</div>
+                <div class="rwe-btn rwe-test">T</div>
+                <div class="rwe-btn rwe-menu">M</div>
+            </div>
+            <!-- MID -->
+            <div class="rwe-mid">
+                <div class="rwe-mid-title">
+                    <div class="rwe-mid-title-input" contenteditable="true" placeholder="제목을 입력하세요"></div>
+                </div>
+                <div class="rwe-mid-article">
+
+                </div>
+            </div>
+            <!-- BOT -->
             <div class="rwe-bot">
                 
             </div>
